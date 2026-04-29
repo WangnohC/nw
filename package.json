@@ -1,0 +1,16 @@
+{
+  "name": "build-app",
+  "type": "module",
+  "scripts": {
+    "build:osx-arm64": "node build/build-osx-arm64.js",
+    "build:osx-x64": "node build/build-osx-x64.js",
+    "build:win-x64": "node build/build-win-x64.js"
+  },
+  "devDependencies": {
+    "nw": "0.106.1",
+    "nw-builder": "4.9.0"
+  },
+  "engines": {
+    "node": "25.2.1"
+  }
+}
